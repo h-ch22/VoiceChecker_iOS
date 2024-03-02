@@ -1,0 +1,7 @@
+VoiceChecker/include/
+VoiceChecker/GoogleService-Info.plist
+VoiceChecker/Frameworks/Helper/AES256Util.swift
+Pods/
+Podfile
+Podfile.lock
+replacements.txt

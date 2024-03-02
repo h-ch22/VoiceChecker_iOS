@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F635D0DD2B9375A000D13B52 /* VoiceCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635D0DC2B9375A000D13B52 /* VoiceCheckerApp.swift */; };
+		F635D0E12B9375A100D13B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F635D0E02B9375A100D13B52 /* Assets.xcassets */; };
+		F635D0E42B9375A100D13B52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F635D0E32B9375A100D13B52 /* Preview Assets.xcassets */; };
+		F635D0EE2B9375A100D13B52 /* VoiceCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635D0ED2B9375A100D13B52 /* VoiceCheckerTests.swift */; };
+		F635D0F82B9375A100D13B52 /* VoiceCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635D0F72B9375A100D13B52 /* VoiceCheckerUITests.swift */; };
+		F635D0FA2B9375A100D13B52 /* VoiceCheckerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635D0F92B9375A100D13B52 /* VoiceCheckerUITestsLaunchTests.swift */; };
+		F635D1092B9375F500D13B52 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635D1082B9375F500D13B52 /* SignInView.swift */; };
+		F66FE4672B937864002D0E8D /* DotProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FE4652B937864002D0E8D /* DotProgressView.swift */; };
+		F66FE4682B937864002D0E8D /* NewMorphButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FE4662B937864002D0E8D /* NewMorphButtonStyle.swift */; };
+		F66FE46B2B93789E002D0E8D /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FE46A2B93789E002D0E8D /* Dot.swift */; };
+		F66FE46F2B937980002D0E8D /* Logos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FE46E2B937980002D0E8D /* Logos.swift */; };
+		F66FE4722B937A18002D0E8D /* UserManagementAlertTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FE4712B937A18002D0E8D /* UserManagementAlertTypeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F635D0EA2B9375A100D13B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F635D0D12B9375A000D13B52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F635D0D82B9375A000D13B52;
+			remoteInfo = VoiceChecker;
+		};
+		F635D0F42B9375A100D13B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F635D0D12B9375A000D13B52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F635D0D82B9375A000D13B52;
+			remoteInfo = VoiceChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F635D0D92B9375A000D13B52 /* VoiceChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635D0DC2B9375A000D13B52 /* VoiceCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCheckerApp.swift; sourceTree = "<group>"; };
+		F635D0E02B9375A100D13B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F635D0E32B9375A100D13B52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F635D0E92B9375A100D13B52 /* VoiceCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635D0ED2B9375A100D13B52 /* VoiceCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCheckerTests.swift; sourceTree = "<group>"; };
+		F635D0F32B9375A100D13B52 /* VoiceCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635D0F72B9375A100D13B52 /* VoiceCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCheckerUITests.swift; sourceTree = "<group>"; };
+		F635D0F92B9375A100D13B52 /* VoiceCheckerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCheckerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F635D1082B9375F500D13B52 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F66FE4652B937864002D0E8D /* DotProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotProgressView.swift; sourceTree = "<group>"; };
+		F66FE4662B937864002D0E8D /* NewMorphButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMorphButtonStyle.swift; sourceTree = "<group>"; };
+		F66FE46A2B93789E002D0E8D /* Dot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+		F66FE46E2B937980002D0E8D /* Logos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logos.swift; sourceTree = "<group>"; };
+		F66FE4712B937A18002D0E8D /* UserManagementAlertTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagementAlertTypeModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F635D0D62B9375A000D13B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635D0E62B9375A100D13B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635D0F02B9375A100D13B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F635D0D02B9375A000D13B52 = {
+			isa = PBXGroup;
+			children = (
+				F635D0DB2B9375A000D13B52 /* VoiceChecker */,
+				F635D0EC2B9375A100D13B52 /* VoiceCheckerTests */,
+				F635D0F62B9375A100D13B52 /* VoiceCheckerUITests */,
+				F635D0DA2B9375A000D13B52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F635D0DA2B9375A000D13B52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F635D0D92B9375A000D13B52 /* VoiceChecker.app */,
+				F635D0E92B9375A100D13B52 /* VoiceCheckerTests.xctest */,
+				F635D0F32B9375A100D13B52 /* VoiceCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F635D0DB2B9375A000D13B52 /* VoiceChecker */ = {
+			isa = PBXGroup;
+			children = (
+				F66FE46C2B937950002D0E8D /* UserManagement */,
+				F635D1062B9375E300D13B52 /* Frameworks */,
+				F635D0E02B9375A100D13B52 /* Assets.xcassets */,
+				F635D0E22B9375A100D13B52 /* Preview Content */,
+			);
+			path = VoiceChecker;
+			sourceTree = "<group>";
+		};
+		F635D0E22B9375A100D13B52 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F635D0E32B9375A100D13B52 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F635D0EC2B9375A100D13B52 /* VoiceCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F635D0ED2B9375A100D13B52 /* VoiceCheckerTests.swift */,
+			);
+			path = VoiceCheckerTests;
+			sourceTree = "<group>";
+		};
+		F635D0F62B9375A100D13B52 /* VoiceCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F635D0F72B9375A100D13B52 /* VoiceCheckerUITests.swift */,
+				F635D0F92B9375A100D13B52 /* VoiceCheckerUITestsLaunchTests.swift */,
+			);
+			path = VoiceCheckerUITests;
+			sourceTree = "<group>";
+		};
+		F635D1062B9375E300D13B52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66FE4692B93788B002D0E8D /* Models */,
+				F635D1072B9375ED00D13B52 /* View */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		F635D1072B9375ED00D13B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F635D0DC2B9375A000D13B52 /* VoiceCheckerApp.swift */,
+				F66FE4652B937864002D0E8D /* DotProgressView.swift */,
+				F66FE4662B937864002D0E8D /* NewMorphButtonStyle.swift */,
+				F66FE46E2B937980002D0E8D /* Logos.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F66FE4692B93788B002D0E8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F66FE46A2B93789E002D0E8D /* Dot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F66FE46C2B937950002D0E8D /* UserManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F66FE4702B937A08002D0E8D /* Models */,
+				F66FE46D2B937955002D0E8D /* View */,
+			);
+			path = UserManagement;
+			sourceTree = "<group>";
+		};
+		F66FE46D2B937955002D0E8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F635D1082B9375F500D13B52 /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F66FE4702B937A08002D0E8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F66FE4712B937A18002D0E8D /* UserManagementAlertTypeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F635D0D82B9375A000D13B52 /* VoiceChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F635D0FD2B9375A100D13B52 /* Build configuration list for PBXNativeTarget "VoiceChecker" */;
+			buildPhases = (
+				F635D0D52B9375A000D13B52 /* Sources */,
+				F635D0D62B9375A000D13B52 /* Frameworks */,
+				F635D0D72B9375A000D13B52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceChecker;
+			productName = VoiceChecker;
+			productReference = F635D0D92B9375A000D13B52 /* VoiceChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F635D0E82B9375A100D13B52 /* VoiceCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F635D1002B9375A100D13B52 /* Build configuration list for PBXNativeTarget "VoiceCheckerTests" */;
+			buildPhases = (
+				F635D0E52B9375A100D13B52 /* Sources */,
+				F635D0E62B9375A100D13B52 /* Frameworks */,
+				F635D0E72B9375A100D13B52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F635D0EB2B9375A100D13B52 /* PBXTargetDependency */,
+			);
+			name = VoiceCheckerTests;
+			productName = VoiceCheckerTests;
+			productReference = F635D0E92B9375A100D13B52 /* VoiceCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F635D0F22B9375A100D13B52 /* VoiceCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F635D1032B9375A100D13B52 /* Build configuration list for PBXNativeTarget "VoiceCheckerUITests" */;
+			buildPhases = (
+				F635D0EF2B9375A100D13B52 /* Sources */,
+				F635D0F02B9375A100D13B52 /* Frameworks */,
+				F635D0F12B9375A100D13B52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F635D0F52B9375A100D13B52 /* PBXTargetDependency */,
+			);
+			name = VoiceCheckerUITests;
+			productName = VoiceCheckerUITests;
+			productReference = F635D0F32B9375A100D13B52 /* VoiceCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F635D0D12B9375A000D13B52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F635D0D82B9375A000D13B52 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F635D0E82B9375A100D13B52 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F635D0D82B9375A000D13B52;
+					};
+					F635D0F22B9375A100D13B52 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F635D0D82B9375A000D13B52;
+					};
+				};
+			};
+			buildConfigurationList = F635D0D42B9375A000D13B52 /* Build configuration list for PBXProject "VoiceChecker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F635D0D02B9375A000D13B52;
+			productRefGroup = F635D0DA2B9375A000D13B52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F635D0D82B9375A000D13B52 /* VoiceChecker */,
+				F635D0E82B9375A100D13B52 /* VoiceCheckerTests */,
+				F635D0F22B9375A100D13B52 /* VoiceCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F635D0D72B9375A000D13B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635D0E42B9375A100D13B52 /* Preview Assets.xcassets in Resources */,
+				F635D0E12B9375A100D13B52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635D0E72B9375A100D13B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635D0F12B9375A100D13B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F635D0D52B9375A000D13B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66FE4672B937864002D0E8D /* DotProgressView.swift in Sources */,
+				F66FE4682B937864002D0E8D /* NewMorphButtonStyle.swift in Sources */,
+				F66FE46F2B937980002D0E8D /* Logos.swift in Sources */,
+				F635D1092B9375F500D13B52 /* SignInView.swift in Sources */,
+				F66FE4722B937A18002D0E8D /* UserManagementAlertTypeModel.swift in Sources */,
+				F66FE46B2B93789E002D0E8D /* Dot.swift in Sources */,
+				F635D0DD2B9375A000D13B52 /* VoiceCheckerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635D0E52B9375A100D13B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635D0EE2B9375A100D13B52 /* VoiceCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635D0EF2B9375A100D13B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635D0F82B9375A100D13B52 /* VoiceCheckerUITests.swift in Sources */,
+				F635D0FA2B9375A100D13B52 /* VoiceCheckerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F635D0EB2B9375A100D13B52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F635D0D82B9375A000D13B52 /* VoiceChecker */;
+			targetProxy = F635D0EA2B9375A100D13B52 /* PBXContainerItemProxy */;
+		};
+		F635D0F52B9375A100D13B52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F635D0D82B9375A000D13B52 /* VoiceChecker */;
+			targetProxy = F635D0F42B9375A100D13B52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F635D0FB2B9375A100D13B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F635D0FC2B9375A100D13B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F635D0FE2B9375A100D13B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceChecker/Preview Content\"";
+				DEVELOPMENT_TEAM = JLQKH6P6PL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cj.VoiceChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F635D0FF2B9375A100D13B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceChecker/Preview Content\"";
+				DEVELOPMENT_TEAM = JLQKH6P6PL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cj.VoiceChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F635D1012B9375A100D13B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLQKH6P6PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cj.VoiceCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoiceChecker";
+			};
+			name = Debug;
+		};
+		F635D1022B9375A100D13B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLQKH6P6PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cj.VoiceCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoiceChecker";
+			};
+			name = Release;
+		};
+		F635D1042B9375A100D13B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLQKH6P6PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cj.VoiceCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceChecker;
+			};
+			name = Debug;
+		};
+		F635D1052B9375A100D13B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLQKH6P6PL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cj.VoiceCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F635D0D42B9375A000D13B52 /* Build configuration list for PBXProject "VoiceChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635D0FB2B9375A100D13B52 /* Debug */,
+				F635D0FC2B9375A100D13B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F635D0FD2B9375A100D13B52 /* Build configuration list for PBXNativeTarget "VoiceChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635D0FE2B9375A100D13B52 /* Debug */,
+				F635D0FF2B9375A100D13B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F635D1002B9375A100D13B52 /* Build configuration list for PBXNativeTarget "VoiceCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635D1012B9375A100D13B52 /* Debug */,
+				F635D1022B9375A100D13B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F635D1032B9375A100D13B52 /* Build configuration list for PBXNativeTarget "VoiceCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635D1042B9375A100D13B52 /* Debug */,
+				F635D1052B9375A100D13B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F635D0D12B9375A000D13B52 /* Project object */;
+}
