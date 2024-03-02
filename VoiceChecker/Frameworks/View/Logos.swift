@@ -27,7 +27,7 @@ struct TextWithImageLogo: View{
             Image("ic_appstore")
                 .resizable()
                 .frame(width: 80, height: 80)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
+                .clipShape(RoundedRectangle(cornerRadius: 15))
             
             Text("**Voice** Checker")
                 .font(.title2)
@@ -43,7 +43,7 @@ struct TextWithImageLogo_Vertical: View{
             Image("ic_appstore")
                 .resizable()
                 .frame(width: 150, height: 150)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
+                .clipShape(RoundedRectangle(cornerRadius: 15))
             
             Text("**Voice** Checker")
                 .font(.title2)

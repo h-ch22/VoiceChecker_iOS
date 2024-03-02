@@ -23,7 +23,12 @@ struct SignInView: View {
             Color.background.ignoresSafeArea(.all, edges: [.top, .bottom])
             
             VStack{
-                TextWithImageLogo_Vertical()
+                Image("ic_appstore")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
+                
+                TextLogo()
                 
                 Spacer()
                 
